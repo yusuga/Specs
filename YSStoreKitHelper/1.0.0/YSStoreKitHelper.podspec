@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/yusuga/YSStoreKitHelper.git', :tag => '1.0.0' }
   s.platform = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  s.source_files = 'YSStoreKitHelper'
+  s.resources    = 'Classes/YSStoreKitHelper/**/*.{xib,plist,lproj}'
+  s.source_files = 'Classes/YSStoreKitHelper/*.{h,m}', 'Classes/YSStoreKitHelper/**/*.{h,m}'
   s.requires_arc = true
   
   s.dependency 'MKStoreKit'
