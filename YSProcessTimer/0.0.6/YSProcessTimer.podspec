@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSProcessTimer'
-  s.version = '0.0.5'
+  s.version = '0.0.6'
   s.summary = 'Process timer.'
   s.homepage = 'https://github.com/yusuga/YSProcessTimer'
   s.license = 'MIT'
