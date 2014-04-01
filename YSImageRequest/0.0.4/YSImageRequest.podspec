@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSImageRequest'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'YSImageRequest'
   s.homepage = 'https://github.com/yusuga/YSImageRequest'
   s.license = 'MIT'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking'
   s.dependency 'TMCache'
   s.dependency 'MD5Digest'
+  s.dependency 'YSImageFilter'
   
   s.compiler_flags = '-fmodules'
 end
