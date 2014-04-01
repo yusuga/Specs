@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSImageFilter'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'YSImageFilter'
   s.homepage = 'https://github.com/yusuga/YSImageFilter'
   s.license = 'MIT'
