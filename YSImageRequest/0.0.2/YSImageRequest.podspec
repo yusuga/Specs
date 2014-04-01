@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   
   s.dependency 'AFNetworking'
   s.dependency 'TMCache'
+  s.dependency 'MD5Digest'
   
   s.compiler_flags = '-fmodules'
 end
