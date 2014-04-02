@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSCoreTextView'
-  s.version = '0.0.23'
+  s.version = '0.0.24'
   s.summary = 'Simple drawing of the CoreText.'
   s.homepage = 'https://github.com/yusuga/YSCoreTextView'
   s.license = 'MIT'
