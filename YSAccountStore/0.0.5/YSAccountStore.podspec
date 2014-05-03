@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/yusuga/YSAccountStore'
   s.license = 'MIT'
   s.author = 'Yu Sugawara'
-  s.source = { :git => 'https://github.com/yusuga/YSAccountStore.git', :tag => '0.0.4' }
+  s.source = { :git => 'https://github.com/yusuga/YSAccountStore.git', :tag => s.version.to_s }
   s.platform = :ios, '6.0'
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
