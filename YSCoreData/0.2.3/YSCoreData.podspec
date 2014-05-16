@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSCoreData'
-  s.version = '0.2.2'
+  s.version = '0.2.3'
   s.summary = 'Multi-Context CoreData'
   s.homepage = 'https://github.com/yusuga/YSCoreData'
   s.license = 'MIT'
