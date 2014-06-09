@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Download-Indicator@yusuga'
-  s.version  = '0.0.2'
+  s.version  = '0.0.3'
   s.author   = 'MaheshRS'
   s.homepage = 'https://github.com/yusuga/Download-Indicator'
   s.summary  = 'This is a iOS Download Indicator for iOS 7, which can be used for showing the download % of the files being downloaded.'
