@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSHTMLHelper'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'HTML helper.'
   s.homepage = 'https://github.com/yusuga/YSHTMLHelper'
   s.license = 'MIT'
