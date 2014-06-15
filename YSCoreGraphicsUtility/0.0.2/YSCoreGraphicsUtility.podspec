@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSCoreGraphicsUtility'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Core Graphics utility.'
   s.homepage = 'https://github.com/yusuga/YSCoreGraphicsUtility'
   s.license = 'MIT'
