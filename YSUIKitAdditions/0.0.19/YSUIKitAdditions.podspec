@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSUIKitAdditions'
-  s.version = '0.0.18'
+  s.version = '0.0.19'
   s.summary = 'UIKit categories.'
   s.homepage = 'https://github.com/yusuga/YSUIKitAdditions'
   s.license = 'MIT'
