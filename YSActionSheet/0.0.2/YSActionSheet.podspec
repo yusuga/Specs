@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSActionSheet'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Customized ActionSheet.'
   s.homepage = 'https://github.com/yusuga/YSActionSheet'
   s.license = 'MIT'
@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   s.source_files = 'Classes/YSActionSheet/*.{h,m}'
+  s.resources    = 'Classes/YSActionSheet/*.storyboard'
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
 end
