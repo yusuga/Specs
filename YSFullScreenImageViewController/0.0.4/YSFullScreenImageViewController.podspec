@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSFullScreenImageViewController'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'Full screen image view controller.'
   s.homepage = 'https://github.com/yusuga/YSFullScreenImageViewController'
   s.license = 'MIT'
