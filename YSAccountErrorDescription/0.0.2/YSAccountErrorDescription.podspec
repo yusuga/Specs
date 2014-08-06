@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSAccountErrorDescription'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Account errors description.'
   s.homepage = 'https://github.com/yusuga/YSAccountErrorDescription'
   s.license = 'MIT'
