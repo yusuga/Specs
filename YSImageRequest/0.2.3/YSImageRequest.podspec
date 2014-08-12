@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSImageRequest'
-  s.version = '0.2.2'
+  s.version = '0.2.3'
   s.summary = 'YSImageRequest'
   s.homepage = 'https://github.com/yusuga/YSImageRequest'
   s.license = 'MIT'
