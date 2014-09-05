@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSCocoaLumberjackHelper'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'CocoaLimberjack helper.'
   s.homepage = 'https://github.com/yusuga/YSCocoaLumberjackHelper'
   s.license = 'MIT'
