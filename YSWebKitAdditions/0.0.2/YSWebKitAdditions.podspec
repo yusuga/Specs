@@ -11,5 +11,12 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = 'Classes/YSWebKitAdditions/*.{h,m}'
   
+  s.prefix_header_contents = "#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
+#ifdef DEBUG
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+    static const int ddLogLevel = LOG_LEVEL_ERROR;
+#endif"
+  
   s.dependency 'YSCocoaLumberjackHelper'
 end
