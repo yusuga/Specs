@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.source_files = 'Classes/YSWebKitAdditions/*.{h,m}'
+  
+  s.dependency 'YSCocoaLumberjackHelper'
 end
