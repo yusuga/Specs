@@ -14,4 +14,11 @@ Pod::Spec.new do |s|
   
   s.dependency 'Realm'
   s.dependency 'YSNSFoundationAdditions'
+  
+  s.prefix_header_contents = "#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
+#ifdef DEBUG
+    static const int ddLogLevel = LOG_LEVEL_ERROR;
+#else
+    static const int ddLogLevel = LOG_LEVEL_ERROR;
+#endif"
 end
