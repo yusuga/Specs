@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   
   s.prefix_header_contents = "#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
 #ifdef DEBUG
-    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+    static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 #else
-    static const int ddLogLevel = LOG_LEVEL_ERROR;
+    static const DDLogLevel ddLogLevel = DDLogLevelError;
 #endif"
   
   s.dependency 'YSCocoaLumberjackHelper'
