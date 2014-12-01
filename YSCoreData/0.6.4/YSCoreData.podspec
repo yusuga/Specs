@@ -12,6 +12,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
+  s.prefix_header_contents = "#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
+#ifdef DEBUG
+    static const DDLogLevel ddLogLevel = DDLogLevelAll;
+#else
+    static const DDLogLevel ddLogLevel = DDLogLevelError;
+#endif"
+  
   s.subspec 'Category' do |ss|
     ss.source_files = 'Classes/YSCoreData/Category/*.{h,m}'
   end
