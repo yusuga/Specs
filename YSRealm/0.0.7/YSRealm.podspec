@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSRealm'
-  s.version = '0.0.6'
+  s.version = '0.0.7'
   s.summary = 'Realm helper.'
   s.homepage = 'https://github.com/yusuga/YSRealm'
   s.license = 'MIT'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
-  s.dependency 'Realm'
+  s.dependency 'Realm', '0.88.0'
   s.dependency 'YSNSFoundationAdditions'
   
   s.prefix_header_contents = "#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
