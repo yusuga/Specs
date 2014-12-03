@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSRealm'
-  s.version = '0.0.7'
+  s.version = '0.1.0'
   s.summary = 'Realm helper.'
   s.homepage = 'https://github.com/yusuga/YSRealm'
   s.license = 'MIT'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.prefix_header_contents = "#import <YSCocoaLumberjackHelper/YSCocoaLumberjackHelper.h>
 #ifdef DEBUG
-    static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+    static const DDLogLevel ddLogLevel = DDLogLevelAll;
 #else
     static const DDLogLevel ddLogLevel = DDLogLevelError;
 #endif"
