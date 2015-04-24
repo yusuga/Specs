@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '7.0'
   s.ios.deployment_target = '7.0'
   s.source_files = 'Classes/Twitter/*.{h,m}'
+  s.resources    = 'Classes/Twitter/Localization/*.lproj'
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
@@ -19,6 +20,15 @@ Pod::Spec.new do |s|
     ss.source_files = 'Classes/Twitter/Constants/*.{h,m}'
   end
   
+  s.subspec 'Localization' do |ss|
+    ss.source_files = 'Classes/Twitter/Localization/*.{h,m}'
+  end
+  
+  s.subspec 'Category' do |ss|
+    ss.dependency 'Twitter/Localization'
+    ss.source_files = 'Classes/Twitter/Category/*.{h,m}'
+  end
+  
   s.subspec 'Parser' do |ss|
     ss.source_files = 'Classes/Twitter/Parser/*.{h,m}'
   end
@@ -26,11 +36,6 @@ Pod::Spec.new do |s|
   s.subspec 'Operation' do |ss|
     ss.dependency 'Twitter/Parser'
     ss.source_files = 'Classes/Twitter/Operation/*.{h,m}'
-  end
-  
-  s.subspec 'Category' do |ss|
-    ss.dependency 'Twitter/Operation'
-    ss.source_files = 'Classes/Twitter/Category/*.{h,m}'
   end
   
   s.subspec 'Model' do |ss|
@@ -45,6 +50,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Authentication' do |ss|
+    ss.dependency 'Twitter/Operation'
     ss.dependency 'Twitter/Serialization'
     ss.source_files = 'Classes/Twitter/Authentication/*.{h,m}'
   end
