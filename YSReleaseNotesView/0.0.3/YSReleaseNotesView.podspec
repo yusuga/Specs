@@ -13,14 +13,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
-  s.prefix_header_contents = "#import <CocoaLumberjack/CocoaLumberjack.h>
-#ifdef DEBUG
-    static const DDLogLevel ddLogLevel = DDLogLevelAll;
-#else
-    static const DDLogLevel ddLogLevel = DDLogLevelError;
-#endif"
+  s.prefix_header_contents = "#import <LumberjackLauncher/LumberjackLauncher.h>"
   
  s.dependency 'TWSReleaseNotesView'
  s.dependency 'KLCPopup'
- s.dependency 'YSCocoaLumberjackHelper'
+ s.dependency 'LumberjackLauncher'
 end
