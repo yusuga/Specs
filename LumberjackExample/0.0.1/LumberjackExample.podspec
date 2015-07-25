@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-fmodules'
   
   s.dependency 'LumberjackLauncher'
-  s.dependency 'CocoaLumberjack', '2.0.0'
+#  s.dependency 'CocoaLumberjack', '2.0.0'
 end
